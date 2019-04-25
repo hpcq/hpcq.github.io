@@ -1,0 +1,73 @@
+/*2016.9.24 css重置样式表*/
+* { margin: 0; padding: 0; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing:border-box;}
+*:focus { outline: none;}
+html { font-size:62.5%;}
+html,body { -moz-appearance: none; -webkit-appearance: none; appearance: none;  overflow-x: hidden;}
+body { font-size:12px; font-size: 1.2rem !important; font-family: "Microsoft Yahei"; background:#fff; color: #3d3d3d; margin:0 auto; min-width:1000px; }
+
+div, p, dl, dt, dd, ul, ol, li, h1,h2,h3,h4 {display: block; }
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary { display: block; }
+textarea { resize: none; }
+table { width:100%; empty-cells: show; border-collapse: collapse; border-spacing:0px;  border: 0;}
+input,button,select,textarea{outline:none;}
+button[disabled], html input[disabled] { cursor: default; }
+button,html input[type="button"],input[type="reset"],input[type="submit"] { -webkit-appearance: button; cursor: pointer; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+button { overflow: visible; border: none;background: transparent;}
+button, select { text-transform: none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+img { border: none;}
+ul,ol,li { list-style: none;}
+a { background-color: transparent; text-decoration: none; color:#666;  outline: none; blr:expression(this.onFocus=this.blur()); cursor:pointer;}
+a:active,a:hover { outline: 0; text-decoration: none;}
+i { font-style: normal;}
+b, strong { font-weight: bold; }
+hr { -moz-box-sizing: content-box; box-sizing: content-box; height: 0; }
+h1,h2,h3,h4,h5,h6,h7 { font-weight: normal;}
+mark {background-color: transparent;color: #ed7020;}
+.clearfix { zoom:1;}
+.clearfix:after {content: '';clear: both;display: block;visibility: hidden;height: 0;}
+button,input,textarea,select { font-family: "Microsoft Yahei";}
+/* 去除iphone ipad 设备默认按钮样式 */
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {-webkit-appearance: none;}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {-webkit-appearance: none !important;}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {color: #999999;}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {color: #999999;}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {color: #999999;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
